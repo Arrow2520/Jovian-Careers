@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Jovian Careers</title>
+    <style>
+        h1 {
+            font-size: 40px;
+            font-family: Roboto,serif;
+            font-weight: normal;
+            color: rgb(100, 100, 100);
+            text-align: center;
+        }
+
+        #banner {
+            width: 100%;
+            height: 360px;
+            object-fit: cover;
+        }
+
+        h2{
+            font-family: Roboto,serif;
+            font-size: 32px;
+            color: rgb(100, 100, 100);
+            text-align: center;
+        }
+
+        .bodytext {
+            font-family: Roboto,serif;
+            color: rgb(80, 80, 80);
+        }
+
+        #container {
+            max-width: 720px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <h1>Jovian Careers</h1>
+        <img id = "banner" src="{{ url_for('static', filename='Scenery.png') }}" alt="Tech Careers">
+        <h2> About Jovian</h2>
+        <p class="bodytext">The term "Jovian" is an adjective used in astronomy to describe anything related to the planet Jupiter. More broadly, it refers to the class of gas giant planets within our Solar System, which includes Jupiter, Saturn, Uranus, and Neptune. These massive worlds are fundamentally different from terrestrial planets like Earth, as they lack a solid surface and are composed predominantly of hydrogen and helium surrounding a dense, hot core. Characteristically, all Jovian planets feature extensive ring systems, although Saturn's are the most prominent, and possess a large retinue of moons, making them complex systems in their own right. The term can also refer to the short-reigning Roman Emperor Flavius Jovianus, who ruled from 363 to 364 AD.</p>
+        <h2>Open Positions</h2>
+        <p class="bodytext">TODO - Show the Jobs Here</p>
+        <div style="text-align:center">
+            <button>Contact Us</button>
+            <p>Copyright 2025, Jovian</p>
+        </div>
+    </div>
+</body>
+</html>
